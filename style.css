@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f7fa;
+    color: #333;
+    font-size: 15px;   /* reduced from default */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 28px;   /* slightly smaller */
+    margin-bottom: 6px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+/* Sections */
+section {
+    padding: 28px 60px;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 20px;   /* reduced heading size */
+    margin-bottom: 10px;
+}
+
+/* Skills */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+/* Project Card */
+.project {
+    background: white;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 800px;
+    font-size: 15px;
+}
+
+.project h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Divider */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #d1d5db;
+    margin: 28px 60px;
+}
+/* Contact links - neutral professional color */
+#contact a {
+    color: #1f2937;          /* same dark color as headings */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#contact a:hover,
+#contact a:active {
+    text-decoration: underline;
+    color: #000000;          /* slightly darker on hover/touch */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 14px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 13px;
+}
